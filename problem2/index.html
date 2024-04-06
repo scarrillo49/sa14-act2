@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <form id="currency-form">
+        <label for="from-currency">From:</label>
+        <select id="from-currency" name="from-currency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        </select>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" min="0" placeholder="Enter Amount">
+        <label for="to-currency">To:</label>
+        <select id="to-currency" name="to-currency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        </select>
+        <button type="submit">Convert</button>
+    </form>
+    <div id="conversion-result">
+        <p>Converted amount: -</p>
+        <p>Exchange rate: -</p>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

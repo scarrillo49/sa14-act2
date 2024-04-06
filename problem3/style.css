@@ -1,0 +1,63 @@
+body {
+    font-family: monospace;
+  }
+  
+  #todo-app {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  #task-form {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  #task-form input,
+  #task-form textarea,
+  #task-form button {
+    padding: 10px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  #task-form button {
+    background-color: darkgray;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #task-list li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+  }
+  
+  .task-title {
+    flex: 1;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: blue;
+  }
+  
+  .delete-btn {
+    color: red;
+  }
+  
